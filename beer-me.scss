@@ -1,0 +1,31 @@
+@media (max-width 640px) {
+  img, .home {
+    height: auto;
+  }
+}
+
+body {
+  font-family: 'Alegreya SC', serif;
+}
+
+.home {
+  color: black;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  height: 200px;
+}
+.geo-results{
+  color: black;
+  text-align: center;
+}
+
+.brewery-results{
+  color: black;
+  text-align: center;
+}
